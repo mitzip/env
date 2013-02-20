@@ -1,4 +1,4 @@
 env
 ===
 
-My development environment.
+My Gentoo development environment.
