@@ -29,7 +29,7 @@ echo -ne "Updating repos..."
 sudo apt-get update >> $STARTDIR/bootstrap.log 2>&1
 echo -e "DONE\n\n"
 
-echo -ne "Installing latest PHP, MongoDB client and php driver..."
+echo -ne "Installing latest PHP, MongoDB (client and server), git and vim..."
 sudo apt-get install -y php5-cli php-pear php5-dev mongodb-10gen git vim >> $STARTDIR/bootstrap.log 2>&1
 echo -e "DONE\n\n"
 
